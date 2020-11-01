@@ -1,0 +1,10 @@
+plugins {
+    id 'io.quarkus'
+}
+
+dependencies {
+    // REST JSON support
+    implementation 'io.quarkus:quarkus-resteasy-jackson'
+
+    runtimeOnly project(':moduletwo')
+}
