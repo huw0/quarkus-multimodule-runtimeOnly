@@ -5,6 +5,6 @@ plugins {
 dependencies {
     // REST JSON support
     implementation 'io.quarkus:quarkus-resteasy-jackson'
-
-    runtimeOnly project(':moduletwo')
+    implementation project(':interface')
+    runtimeOnly project(':runtimeModule')
 }

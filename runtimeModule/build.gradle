@@ -1,0 +1,10 @@
+plugins {
+    id "org.kordamp.gradle.jandex" version "0.11.0"
+}
+
+dependencies {
+    implementation 'io.quarkus:quarkus-arc'
+    implementation project(':interface')
+}
+
+apply plugin: "org.kordamp.gradle.jandex"

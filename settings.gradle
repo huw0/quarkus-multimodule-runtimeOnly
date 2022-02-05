@@ -9,4 +9,4 @@ pluginManagement {
     }
 }
 
-include 'app', 'moduletwo'
+include 'app', 'interface',  'runtimeModule'
